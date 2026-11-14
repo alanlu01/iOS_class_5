@@ -17,6 +17,10 @@
 | 影片 | 「影片」用 `VideoPlayer` 播放 App 內的 36.5 秒月相縮時影片，可離線觀看 |
 | 系統外觀 | 支援淺色、深色與 SF Symbols。包含 App Icon、主畫面名稱及由 Info.plist 產生的 Launch Screen |
 
+## 模擬器畫面
+
+iPad Pro 11 吋的手冊與圖鑑。[手冊封面](docs/screenshots/ipad-cover.png) · [圖鑑](docs/screenshots/ipad-gallery.png)
+
 ## 素材
 
 - 月球插畫和 App Icon 使用內建 ImageGen。生成指令為無字無邊框的 2×2 天文攝影風格版面，四格分別呈現近滿月、右側受光的娥眉月、側光下的月球撞擊坑和暮色山脊上的月亮。統一使用深海軍藍、銀灰與暖琥珀色。輸出裁切後存於 `LunarAtlas/Assets.xcassets`。

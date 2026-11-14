@@ -29,15 +29,19 @@ final class LunarAtlasUITests: XCTestCase {
         XCTAssertTrue(full.isHittable)
         XCTAssertFalse(app.buttons["下一頁"].isEnabled)
 
-        let note = app.buttons.matching(identifier: "field-note-toggle").matching(NSPredicate(format: "hittable == true")).firstMatch
-        if !note.exists {
-            element("reader-page-full", in: app).swipeUp()
+        let fullPage = element("reader-page-full", in: app)
+        let note = fullPage.buttons["field-note-toggle"]
+        if !note.isHittable {
+            fullPage.swipeUp()
         }
         note.tap()
-        XCTAssertTrue(app.staticTexts["field-note-text"].waitForExistence(timeout: 5))
+
+        let noteText = fullPage.staticTexts["field-note-text"]
+        XCTAssertTrue(noteText.waitForExistence(timeout: 5))
         capture("reader", in: app)
         note.tap()
-        XCTAssertFalse(app.staticTexts.matching(identifier: "field-note-text").matching(NSPredicate(format: "hittable == true")).firstMatch.exists)
+        expectation(for: NSPredicate(format: "exists == false"), evaluatedWith: noteText)
+        waitForExpectations(timeout: 5)
     }
 
     func testGalleryNavigationAndLocalVideoPlayback() {
