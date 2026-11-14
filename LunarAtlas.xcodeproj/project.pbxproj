@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38040C33A803F0FB1529D10F /* LunarAtlasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D432C934A2067A3BB374E /* LunarAtlasApp.swift */; };
+		3E69BE0100779CA2B2F8B94B /* FilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0610BC6E48767632139C83 /* FilmView.swift */; };
+		4522596F02F0B49EC795A02C /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA9E7272F26B0A3C6FE8CE /* ReaderView.swift */; };
+		7452B5708B21EAA77BCD152D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03F0BC045C797209E30A65 /* LibraryView.swift */; };
+		85E2DCDC26AADB89B1122DA5 /* LunarAtlasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E055588CA64E8091F0FBA92F /* LunarAtlasUITests.swift */; };
+		946B34952AC5EB9F5F42538F /* moon-phases.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5C8B171D874E95A74C599439 /* moon-phases.mp4 */; };
+		A9FDB238E8F711122937A1C1 /* ChapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB32E5DDD65A4BF2022DB0F /* ChapterView.swift */; };
+		AC1D8640D5034DA39B3643BE /* AtlasTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9E741D9ACA2B15BF1C4F7 /* AtlasTheme.swift */; };
+		DF6041FA4A4BC4D28ACDE5EF /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41DA534D8273E9E3310FDF /* GalleryView.swift */; };
+		DFBD4EFE56E9BF12623FA716 /* AtlasContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3152EA1324A4FCCC90D42517 /* AtlasContent.swift */; };
+		F881D9F9C231EDC43CD7A47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C968A94E64BD1F9CC63BA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BD839CD567DD122B89844D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB51666FB0315E24D4D4BE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF34553C54E47DD2063C28A;
+			remoteInfo = LunarAtlas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3152EA1324A4FCCC90D42517 /* AtlasContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasContent.swift; sourceTree = "<group>"; };
+		5C8B171D874E95A74C599439 /* moon-phases.mp4 */ = {isa = PBXFileReference; path = "moon-phases.mp4"; sourceTree = "<group>"; };
+		61F9E741D9ACA2B15BF1C4F7 /* AtlasTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasTheme.swift; sourceTree = "<group>"; };
+		8BB32E5DDD65A4BF2022DB0F /* ChapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterView.swift; sourceTree = "<group>"; };
+		8EBBAD855C3E2BD997886098 /* LunarAtlas.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LunarAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A03F0BC045C797209E30A65 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		9B7C968A94E64BD1F9CC63BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA41DA534D8273E9E3310FDF /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		ABBA9E7272F26B0A3C6FE8CE /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		C8C8983FB2D24A3316CCD65E /* LunarAtlasUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LunarAtlasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0610BC6E48767632139C83 /* FilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmView.swift; sourceTree = "<group>"; };
+		D13D432C934A2067A3BB374E /* LunarAtlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarAtlasApp.swift; sourceTree = "<group>"; };
+		E055588CA64E8091F0FBA92F /* LunarAtlasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarAtlasUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		419FD1AE8ED82208AF98C892 /* LunarAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C968A94E64BD1F9CC63BA /* Assets.xcassets */,
+				D13D432C934A2067A3BB374E /* LunarAtlasApp.swift */,
+				CBF85F7744B4B0A2CBC6B57B /* Models */,
+				E0E2E1634E2C658FC55488D2 /* Resources */,
+				686774F7B179212AE36B7FC9 /* Views */,
+			);
+			path = LunarAtlas;
+			sourceTree = "<group>";
+		};
+		686774F7B179212AE36B7FC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61F9E741D9ACA2B15BF1C4F7 /* AtlasTheme.swift */,
+				8BB32E5DDD65A4BF2022DB0F /* ChapterView.swift */,
+				CF0610BC6E48767632139C83 /* FilmView.swift */,
+				AA41DA534D8273E9E3310FDF /* GalleryView.swift */,
+				9A03F0BC045C797209E30A65 /* LibraryView.swift */,
+				ABBA9E7272F26B0A3C6FE8CE /* ReaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DC3C1654F59BD56A877740D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBAD855C3E2BD997886098 /* LunarAtlas.app */,
+				C8C8983FB2D24A3316CCD65E /* LunarAtlasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF85F7744B4B0A2CBC6B57B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3152EA1324A4FCCC90D42517 /* AtlasContent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF80A7C258B348A916D2EED6 = {
+			isa = PBXGroup;
+			children = (
+				419FD1AE8ED82208AF98C892 /* LunarAtlas */,
+				E54497D769E41968B9C791B0 /* LunarAtlasUITests */,
+				9DC3C1654F59BD56A877740D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E2E1634E2C658FC55488D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C8B171D874E95A74C599439 /* moon-phases.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E54497D769E41968B9C791B0 /* LunarAtlasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E055588CA64E8091F0FBA92F /* LunarAtlasUITests.swift */,
+			);
+			path = LunarAtlasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF34553C54E47DD2063C28A /* LunarAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A092EA99F1BBBABEC52F41A1 /* Build configuration list for PBXNativeTarget "LunarAtlas" */;
+			buildPhases = (
+				B046B47D5937EEB141351AC1 /* Sources */,
+				910486D55E25A9E271236972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunarAtlas;
+			packageProductDependencies = (
+			);
+			productName = LunarAtlas;
+			productReference = 8EBBAD855C3E2BD997886098 /* LunarAtlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB51B8FDA83A4F89C2D7EC6 /* LunarAtlasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B8A4BFC07F8B507397A3DB /* Build configuration list for PBXNativeTarget "LunarAtlasUITests" */;
+			buildPhases = (
+				99BCE42370FFA09D4542E3F0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571E1DA15A43E7CA244DDB5E /* PBXTargetDependency */,
+			);
+			name = LunarAtlasUITests;
+			packageProductDependencies = (
+			);
+			productName = LunarAtlasUITests;
+			productReference = C8C8983FB2D24A3316CCD65E /* LunarAtlasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB51666FB0315E24D4D4BE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DCB51B8FDA83A4F89C2D7EC6 = {
+						TestTargetID = 9BF34553C54E47DD2063C28A;
+					};
+				};
+			};
+			buildConfigurationList = FAB15357DD63C0061E838ABA /* Build configuration list for PBXProject "LunarAtlas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF80A7C258B348A916D2EED6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9DC3C1654F59BD56A877740D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF34553C54E47DD2063C28A /* LunarAtlas */,
+				DCB51B8FDA83A4F89C2D7EC6 /* LunarAtlasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910486D55E25A9E271236972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F881D9F9C231EDC43CD7A47C /* Assets.xcassets in Resources */,
+				946B34952AC5EB9F5F42538F /* moon-phases.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99BCE42370FFA09D4542E3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E2DCDC26AADB89B1122DA5 /* LunarAtlasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046B47D5937EEB141351AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBD4EFE56E9BF12623FA716 /* AtlasContent.swift in Sources */,
+				AC1D8640D5034DA39B3643BE /* AtlasTheme.swift in Sources */,
+				A9FDB238E8F711122937A1C1 /* ChapterView.swift in Sources */,
+				3E69BE0100779CA2B2F8B94B /* FilmView.swift in Sources */,
+				DF6041FA4A4BC4D28ACDE5EF /* GalleryView.swift in Sources */,
+				7452B5708B21EAA77BCD152D /* LibraryView.swift in Sources */,
+				38040C33A803F0FB1529D10F /* LunarAtlasApp.swift in Sources */,
+				4522596F02F0B49EC795A02C /* ReaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571E1DA15A43E7CA244DDB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF34553C54E47DD2063C28A /* LunarAtlas */;
+			targetProxy = 9BD839CD567DD122B89844D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F904F5F516583C6FDB17ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4B8299C9588371B8FE18A7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A93A4AAB836FD52412A79252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "月球觀測手冊";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.alanlu01.LunarAtlas;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C95977BD5AA3CFAB4D7C6C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.alanlu01.LunarAtlas.UITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LunarAtlas;
+			};
+			name = Debug;
+		};
+		CE134B4CE145BB28EFE0E472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.alanlu01.LunarAtlas.UITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LunarAtlas;
+			};
+			name = Release;
+		};
+		DE3672A4BFE0DE087AB20ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "月球觀測手冊";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.alanlu01.LunarAtlas;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36B8A4BFC07F8B507397A3DB /* Build configuration list for PBXNativeTarget "LunarAtlasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95977BD5AA3CFAB4D7C6C16 /* Debug */,
+				CE134B4CE145BB28EFE0E472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A092EA99F1BBBABEC52F41A1 /* Build configuration list for PBXNativeTarget "LunarAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3672A4BFE0DE087AB20ED1 /* Debug */,
+				A93A4AAB836FD52412A79252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAB15357DD63C0061E838ABA /* Build configuration list for PBXProject "LunarAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F904F5F516583C6FDB17ED7 /* Debug */,
+				4B8299C9588371B8FE18A7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB51666FB0315E24D4D4BE1 /* Project object */;
+}

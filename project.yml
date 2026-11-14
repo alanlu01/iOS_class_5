@@ -1,0 +1,43 @@
+name: LunarAtlas
+options:
+  deploymentTarget:
+    iOS: "18.0"
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+targets:
+  LunarAtlas:
+    type: application
+    platform: iOS
+    sources:
+      - LunarAtlas
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: tw.alanlu01.LunarAtlas
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: 月球觀測手冊
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        MARKETING_VERSION: 1.0
+        CURRENT_PROJECT_VERSION: 1
+  LunarAtlasUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - LunarAtlasUITests
+    dependencies:
+      - target: LunarAtlas
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: tw.alanlu01.LunarAtlas.UITests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  LunarAtlas:
+    build:
+      targets:
+        LunarAtlas: all
+        LunarAtlasUITests: [test]
+    test:
+      targets:
+        - LunarAtlasUITests
