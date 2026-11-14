@@ -19,7 +19,10 @@
 
 ## 模擬器畫面
 
-iPad Pro 11 吋的手冊與圖鑑。[手冊封面](docs/screenshots/ipad-cover.png) · [圖鑑](docs/screenshots/ipad-gallery.png)
+- iPhone 18 Pro。[手冊封面](docs/screenshots/iphone-cover.png) · [閱讀頁](docs/screenshots/iphone-reader.png) · [圖鑑](docs/screenshots/iphone-gallery.png) · [影片](docs/screenshots/iphone-film.png)
+- iPad Pro 11 吋。[手冊封面](docs/screenshots/ipad-cover.png) · [圖鑑](docs/screenshots/ipad-gallery.png) · [深色影片頁](docs/screenshots/ipad-film.png)
+
+[作業文章](docs/medium-article.md)包含設計說明、SwiftUI 程式碼節錄與成果展示。
 
 ## 素材
 
